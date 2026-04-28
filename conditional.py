@@ -86,8 +86,8 @@ probs_b = RS/total
 probs_bga = probs_b
 probs_a_and_b = probs_a*probs_b
 
-print("Probability that the second shirt is red given that the first shirt is blue: ")
+print("Probability that the second ball is red given that the first ball is blue: ")
 print(round((probs_bga),3))
 
-print("Probability that the second shirt is red and the first shirt is blue: ")
+print("Probability that the second ball is red and the first ball is blue: ")
 print(round((probs_a_and_b),3))
